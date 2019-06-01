@@ -1,0 +1,4 @@
+.menu_solar, .menu_resto {
+  height: 80px;
+  background-color: rgba(136, 212, 152, 0.25);
+  display: flex; }
