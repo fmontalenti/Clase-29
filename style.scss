@@ -1,18 +1,4 @@
-$main-color: rgba(4, 167, 119, 0.8); 
-$main-text-color: #fff;
-$secondary-text-color: #333;
-$auxiliar-text-color: #999;
-$emphasis-color: #ff3654;
-$section-background-color: #fff;
-$banner-background-color: #2d2d2a;
-$title-font: 'Lato', sans-serif;
-$main-font: 'Roboto', sans-serif;
-
-@mixin flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+@import "./_variables";
 
 %button {
   width: 180px;
