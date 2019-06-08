@@ -1,4 +1,4 @@
-body .header-container header button, body .product-description .description button {
+body .header-container header button, body .product-description .description button, body .convert_button {
   width: 180px;
   height: 50px;
   border-radius: 5px;
@@ -104,3 +104,16 @@ body {
     font-size: 48px;
     text-align: center;
     color: #fff; }
+  body .contenedor_heading {
+    height: 400px;
+    background-color: rgba(4, 167, 119, 0.8);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    color: #fff; }
+  body h1 {
+    text-align: start; }
+  body .convert {
+    display: flex; }

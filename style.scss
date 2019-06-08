@@ -31,7 +31,7 @@ body {
   margin: 0;
   .header-container {
     background-color: $main-color;
-    height: 900px;
+    height: 900px; 
       nav {
       @include flex-center;
       justify-content: space-between;
@@ -136,4 +136,28 @@ body {
     text-align: center;
     color: $main-text-color;
   }
+  .contenedor_heading {
+    height: 400px;
+    background-color: $main-color;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    color: $main-text-color;
+    
+  }
+  h1 {
+   text-align: start;
+      
+  }
+  .convert {
+    display: flex;
+
+  } 
+  .convert_button {
+    @extend %button;
+    
+  }
+  
 }
